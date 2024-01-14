@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nicar2024-select-star"
+version = "0.1.0"
+description = ""
+authors = ["John West <john@beebe-west.com>", "Rob Barry <rob.barry@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+transformers = "^4.36.2"
+pandas = "^2.1.4"
+scikit-learn = "^1.3.2"
+torch = "^2.1.2"
+torchvision = "^0.16.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
