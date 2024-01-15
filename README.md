@@ -29,24 +29,47 @@ The course description:
 
 ## Installation
 
-Make sure you've got Git, Python ^3.11, and [`Poetry`](https://python-poetry.org) installed.
+For those of you actually at NICAR, you can safely ignore this. If you're not in the room, though, you'll need to run these steps.
 
-If you don't know how to get Git or modern Python installed on your system, this class might be too advanced.
+Make sure you've got Git, Python v3.11, Node v20 and [`Poetry`](https://python-poetry.org) installed.
 
-To install `Poetry`:
-
-```bash
-pipx install poetry
-poetry completions zsh > ~/.zfunc/_poetry # If you're on a modern Mac.
-```
-
-Next, clone and instlal this repository
+Next, clone and install this repository
 
 ```bash
-git clone nicar2024-select-star
-cd nicar2024-select-star
 poetry install
+npm install
 ```
 
-Next, download the data
+## Getting the data.
+
+The easist thing is to download the data into the `data/` folder. (_N.B._: If you're at NICAR, you shouldn't need to do this.)
+
+Otherwise, you can scrape everything you need in about an hour.
+
+```bash
+poetry shell
+jupyter notebook
+```
+
+Now, run the `SCRAPE` notebook in its entirety.
+
+## Tagging data.
+
+We've already tagged a couple hundred images, but more is more and more is better.
+
+```bash
+npm run dev -- --open
+```
+
+This will open the Svelte app that powers the tagging component. Feel free to tag away.
+
+## Classifying data.
+
+```bash
+poetry shell
+jupyter notebook
+```
+
+Now, run the `CLASSIFY` notebook in its entirety.
+
 
