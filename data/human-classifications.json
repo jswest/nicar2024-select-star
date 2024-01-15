@@ -1,1 +1,1252 @@
-[]
+[
+  {
+    "image_id": "http://www.loc.gov/item/2017780428/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780568/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780627/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780628/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780430/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780442/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780452/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780461/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780524/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780483/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780562/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017780505/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017778737/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017778753/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017778812/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017778817/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017778818/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017778820/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017778821/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017778894/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017779408/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017779432/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017779318/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774951/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774970/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774904/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774905/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774440/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774862/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774863/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774864/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774865/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774093/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774112/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017774114/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017775340/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017775055/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017775066/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017775067/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017775164/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017775182/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017775137/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799798/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799806/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799811/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800031/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800032/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800033/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800034/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800035/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800036/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800037/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800038/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800039/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800041/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800050/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800052/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800055/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800056/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800059/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800060/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800061/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800062/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800063/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800064/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800065/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800066/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800067/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800068/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800069/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800070/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800071/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800072/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800074/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799835/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799837/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799838/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799839/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799840/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799841/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799842/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799843/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799844/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799880/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799889/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799895/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799896/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799898/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799913/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799915/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799995/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800017/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800018/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800019/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800020/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800021/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800022/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017800025/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017799955/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858748/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858749/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858750/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858751/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858752/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858755/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858757/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858775/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858776/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858794/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858799/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858800/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858815/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858816/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858819/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858820/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858832/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858833/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858662/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858667/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858693/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858697/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858971/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858974/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858975/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858978/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858979/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858981/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858985/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858987/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858990/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858992/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858993/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859002/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859005/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859009/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859010/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859011/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859018/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859021/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859022/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859026/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859027/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859028/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859029/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017859032/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858934/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858935/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858936/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858938/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858939/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858940/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858941/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858947/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858950/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858963/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858964/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017858967/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845343/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845358/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845367/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845372/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845381/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845408/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845409/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845423/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845430/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845176/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845177/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845214/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845218/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845668/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845669/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845670/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845684/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845685/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845697/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845863/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845864/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845892/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845896/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845902/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845907/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845908/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845910/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845954/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845956/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845968/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845969/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845970/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845975/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845976/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845979/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845981/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845982/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845988/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845989/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845990/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017845857/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017847663/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871355/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871356/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871357/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871358/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871359/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871360/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871362/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871363/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871364/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871365/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871366/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871367/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871368/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871369/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871370/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871371/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871372/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871373/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871374/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871375/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871376/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871377/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871378/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871379/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871380/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871381/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871382/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871383/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871384/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871385/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871395/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871396/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871397/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871398/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871399/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871400/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871401/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871402/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871403/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871408/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871409/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871410/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871411/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871412/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871413/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871414/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871415/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871416/",
+    "name": "contains_human",
+    "value": false
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871417/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871418/",
+    "name": "contains_human",
+    "value": true
+  },
+  {
+    "image_id": "http://www.loc.gov/item/2017871419/",
+    "name": "contains_human",
+    "value": false
+  }
+]

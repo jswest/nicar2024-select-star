@@ -6,6 +6,7 @@ data/*.jpg
 data/index-full.csv
 data/index-full.json
 data/index-page-*.json
+data/machine-classifications.json
 node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
