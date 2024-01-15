@@ -1,0 +1,11 @@
+.DS_Store
+.ipynb_checkpoints
+.svelte-kit
+build
+data/*.jpg
+data/index-full.csv
+data/index-full.json
+data/index-page-*.json
+node_modules
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
