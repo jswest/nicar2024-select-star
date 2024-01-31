@@ -1,6 +1,9 @@
 <script>
 	import { scaleLinear } from "d3";
 	import { Viz } from "midsommer";
+
+	import Header from "$lib/header.svelte";
+
 	import data from './../../../data/vectors.json';
 
 	let active;
@@ -17,6 +20,21 @@
 	let viz;
 	let width = 600;
 
+	let forceConfig = {};
+	let forceCenterStrength = 1;
+	let forceFilterEmpties = 'false';
+	let forceHideEmpties = 'false';
+	let forceIterations = 2;
+	let forceManyBodyStrength = -300;
+	let forceSpaceStrength = 0.03;
+
+	let somConfig = {};
+	let somHeight = 15;
+	let somIterations = 20;
+	let somLearningRate = 0.25;
+	let somRadius = 1.25;
+	let somWidth = 15;
+
 	const bgScale = scaleLinear()
 		.domain([0, 1])
 		.range(["rgba(255,100,100,0.5)", "rgba(100,100,255,0.5)"]);
@@ -26,25 +44,45 @@
 		nodes = report.nodes;
 		state = report.state;
 	};
-	const forceConfig = {
-		centerStrength: 1,
-		filterEmpties: false,
-		hideEmpties: false,
-		iterations: 2,
-		manyBodyStrength: -300,
-		spaceStrength: 0.03,
+	const train = () => {
+		viz.run();
 	}
-	const somConfig = {
-		dimensions: data[0].vector.length,
-		height: 10,
-		iterations: 20,
-		learningRate: 0.25,
-		radius: 1.25,
-		randomSeed: 42,
-		shouldDecay: true,
-		width: 10,
+	const updateForceConfig = (
+		forceCenterStrength,
+		forceFilterEmpties,
+		forceHideEmpties,
+		forceIterations,
+		forceManyBodyStrength,
+		forceSpaceStrength,
+	) => {
+		forceConfig.centerStrength = forceCenterStrength;
+		forceConfig.filterEmpties = forceFilterEmpties === 'true';
+		forceConfig.hideEmpties = forceHideEmpties === 'true';
+		forceConfig.iterations = forceIterations;
+		forceConfig.manyBodyStrength = forceManyBodyStrength;
+		forceConfig.spaceStrength = forceSpaceStrength;
+		forceConfig = forceConfig;
 	};
+	const updateSomConfig = (
+		somHeight,
+		somIterations,
+		somLearningRate,
+		somRadius,
+		somWidth
+	) => {
+			somConfig.dimensions = data[0].vector.length;
+			somConfig.height = somHeight;
+			somConfig.iterations = somIterations;
+			somConfig.learningRate = somLearningRate;
+			somConfig.radius = somRadius;
+			somConfig.randomSeed = 42;
+			somConfig.shouldDecay = true;
+			somConfig.width = somWidth;
+	}
 
+	$: background = (node) => {
+		return `url(#node-bg-${node.id})`;
+	};
 	$: bgs = nodes.map((n) => {
 		return {
 			id: `node-bg-${n.id}`,
@@ -63,47 +101,106 @@
 	};
 	$: radius = (node) => {
 		if (node.data.length === 0) {
-			return 3.5;
+			return 0;
 		} else if (active && active.id === node.id) {
 			return 14;
 		} else {
 			return 3.5;
 		}
 	}
+	$: updateForceConfig(
+		forceCenterStrength,
+		forceFilterEmpties,
+		forceHideEmpties,
+		forceIterations,
+		forceManyBodyStrength,
+		forceSpaceStrength,
+	);
 
-	$: background = (node) => {
-		return `url(#node-bg-${node.id})`;
-	};
+	$: updateSomConfig(
+		somHeight,
+		somIterations,
+		somLearningRate,
+		somRadius,
+		somWidth
+	);
 </script>
 
-<div class="Page">
-	<div class="controls">
-		<button on:click={() => {viz.run()}}>Start</button>
-	</div>
-	<div class="viz">
-		<svg height={height + 40} width={width + 40}>
-			<g class="defs">
-				<defs>
-					<radialGradient id="node">
-						<stop offset="0%" stop-color="white" />
-						<stop offset="50%" stop-color="white" />
-						<stop offset="100%" stop-color="transparent" />
-					</radialGradient>
-					{#each bgs as bg}
-						<radialGradient id="{bg.id}">
-							<stop offset="0%" stop-color="{bg.start}" />
-							<stop offset="100%" stop-color="{bg.end}" />
+<div class="bg">
+	<Header />
+	<div class="Page">
+		<div class="controls">
+			<h2>SOM configuration</h2>
+			<div class="field">
+				<p>height</p>
+				<input type="text" bind:value={somHeight} />
+			</div>
+			<div class="field">
+				<p>width</p>
+				<input type="text" bind:value={somWidth} />
+			</div>
+			<div class="field">
+				<p>iterations</p>
+				<input type="text" bind:value={somIterations} />
+			</div>
+			<div class="field">
+				<p>learning rate</p>
+				<input type="text" bind:value={somLearningRate} />
+			</div>
+			<div class="field">
+				<p>radius</p>
+				<input type="text" bind:value={somRadius} />
+			</div>
+			<h2>Force configuration</h2>
+			<div class="field">
+				<p>center strength</p>
+				<input type="text" bind:value={forceCenterStrength} />
+			</div>
+			<div class="field">
+				<p>filter empty nodes</p>
+				<input type="text" bind:value={forceFilterEmpties} />
+			</div>
+			<div class="field">
+				<p>hide empty nodes</p>
+				<input type="text" bind:value={forceHideEmpties} />
+			</div>
+			<div class="field">
+				<p>iterations</p>
+				<input type="text" bind:value={forceIterations} />
+			</div>
+			<div class="field">
+				<p>many-body strength</p>
+				<input type="text" bind:value={forceManyBodyStrength} />
+			</div>
+			<div class="field">
+				<p>space strength</p>
+				<input type="text" bind:value={forceSpaceStrength} />
+			</div>
+			<button on:click={train}>Train SOM.</button>
+		</div>
+		<div class="viz">
+			<svg height={height + 40} width={width + 40}>
+				<g class="defs">
+					<defs>
+						<radialGradient id="node">
+							<stop offset="0%" stop-color="white" />
+							<stop offset="50%" stop-color="white" />
+							<stop offset="100%" stop-color="transparent" />
 						</radialGradient>
-					{/each}
-					{#each fgs as fg}
-						<radialGradient id="{fg.id}">
-							<stop offset="0%" stop-color="{fg.start}" />
-							<stop offset="100%" stop-color="{fg.end}" />
-						</radialGradient>
-					{/each}
-				</defs>
-			</g>
-			<g transform="translate(20,20)">
+						{#each bgs as bg}
+							<radialGradient id="{bg.id}">
+								<stop offset="0%" stop-color="{bg.start}" />
+								<stop offset="100%" stop-color="{bg.end}" />
+							</radialGradient>
+						{/each}
+						{#each fgs as fg}
+							<radialGradient id="{fg.id}">
+								<stop offset="0%" stop-color="{fg.start}" />
+								<stop offset="100%" stop-color="{fg.end}" />
+							</radialGradient>
+						{/each}
+					</defs>
+				</g>
 				<Viz
 					bind:this={viz}
 					background={background}
@@ -115,56 +212,106 @@
 					height={height}
 					radius={radius}
 					somConfig={somConfig}
+					xOffset={40}
+					yOffset={40}
 					width={width}
 				/>
-			</g>
-		</svg>
-	</div>
-	<div class="pictures">
-		{#if active}
-			{#each active.data as d}
-				<figure>
-					<img src="./../../../data/image-{d.image_filename}" />
-					<figcaption>
-						{d.contains_human === 1 ? 'contains a human' : 'does not contain a human.'}
-					</figcaption>
-				</figure>
-			{/each}
-		{/if}
+			</svg>
+		</div>
+		<div class="pictures">
+			{#if active}
+				{#each active.data as d}
+					<figure>
+						<img src="./../../../data/image-{d.image_filename}" />
+						<figcaption>
+							{d.contains_human === 1 ? 'contains a human' : 'does not contain a human.'}
+						</figcaption>
+					</figure>
+				{/each}
+			{/if}
+		</div>
 	</div>
 </div>
 
 <style>
+	.bg {
+		background-color: black;
+		height: 100vh;
+		width: 100vw;
+	}
+	.Page {
+		margin: 0 auto;
+		position: relative;
+		width: calc((var(--unit) * 4) + 300px + 300px + 640px);
+	}
 	.controls {
 		background-color: black;
-		height: calc(var(--unit) * 2);
-		left: 0;
-		position: fixed;
-		top: 0;
-		width: 100%;
+		border: 1px solid white;
+		box-sizing: border-box;
+		height: 640px;
+		left: var(--unit);
+		padding: var(--unit);
+		position: absolute;
+		top: calc(var(--unit) * 3);
+		width: 300px;
+	}
+	.controls h2 {
+		color: white;
+		font-weight: 800;
+	}
+	.controls p {
+		color: white;
+		line-height: 1;
+	}
+	.controls button {
+		background-color: black;
+		border: 1px solid white;
+		box-sizing: border-box;
+		color: white;
+		cursor: pointer;
+		height: calc(var(--unit) * 1.25);
+		margin: calc(var(--unit) / 2) 0;
+		width: calc(300px - var(--unit) - var(--unit));
+	}
+	.controls input {
+		background-color: black;
+		border: 1px solid white;
+		box-sizing: border-box;
+		color: white;
+		height: calc(var(--unit) * 1.25);
+		outline: none;
+		padding: calc(var(--unit) * 0.25);
+		width: calc(300px - var(--unit) - var(--unit));
+
+	}
+	.controls .field {
+		margin-bottom: calc(var(--unit) / 2);
 	}
 	.viz {
-		height: calc(100vh - (var(--unit) * 3));
-		left: var(--unit);
-		position: fixed;
+		border: 1px solid white;
+		box-sizing: border-box;
+		height: 640px;
+		left: calc(300px + (var(--unit) * 2));
+		position: absolute;
 		top: calc(var(--unit) * 3);
 		width: 640px;
 	}
-	svg {
-		background-color: black;
-	}
 	.pictures {
-		height: calc(100vh - (var(--unit) * 3));
-		left: calc((var(--unit) * 2) + 640px);
+		background-color: black;
+		border: 1px solid white;
+		box-sizing: border-box;
+		height: 640px;
+		left: calc((var(--unit) * 3) + 640px + 300px);
 		overflow: scroll;
-		position: fixed;
+		position: absolute;
 		top: calc(var(--unit) * 3);
 		width: 300px;
 	}
 	.pictures figure {
-		border: 1px solid black;
+		border: 1px solid white;
 		box-sizing: border-box;
-		margin-bottom: var(--unit);
+		color: white;
+		margin: var(--unit);
 		padding: var(--unit);
 	}
 	.pictures img {

@@ -8,9 +8,14 @@
 	padding: 0;
 }
 
-h1, p {
+h1, h2, p, li {
 	font-family: var(--font);
 	font-size: var(--unit);
 	font-weight: 400;
 	line-height: calc(var(--unit) * 1.5);
+}
+
+.pre {
+	background-color: #ececec;
+	font-family: monospace;
 }
