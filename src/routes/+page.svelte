@@ -1,95 +1,62 @@
 <script>
-	export let data;
+	import Header from '$lib/header.svelte';
 </script>
 
-<div class="page">
-	<header>
-		<h1>SELECT * FROM interesting;</h1>
-	</header>
+<div class="Page">
+	<Header />
 	<div class="main">
-		<div class="body">
-			<div>
-				<p>Count of images: {data.counts.images}</p>
-				<p>Count of tagged images: {data.counts.taggedImages}</p>
-				<p>Count of images tagged as containing a human: {data.counts.human}</p>
-				<p>Count of images tagged as not containing a human: {data.counts.noHuman}</p>
-			</div>
-			<figure>
-				<img src="./../data/image-{data.metadata.image_filename}" />
-				<figcaption>{data.metadata.title}</figcaption>
-			</figure>
-			<form action="?/human" method="POST">
-				<input class="hidden-input" name="image_id" type="text" value="{data.metadata.id}">
-				<button type="submit">Contains a human.</button>
-			</form>
-			<form action="?/no_human" method="POST">
-				<input class="hidden-input" name="image_id" type="text" value="{data.metadata.id}">
-				<button type="submit">Does not contain a human.</button>
-			</form>
+		<h1>SELECT * FROM interesting</h1>
+		<h2>For NICAR 2024</h2>
+		<div class="section">
+			<p>The course description:</p>
+			<blockquote>
+				<p>Ever found yourself drowning in a sea of data with editors circling like sharks? You're not alone. In this interactive session, Wall Street <em>Journal</em> data people John West and Rob Barry will dive into a machine learning concept called embeddings, which are at the heart of the current AI craze. Using free and open source tools, we’ll show you how to use this technology to keep afloat in your ocean of unstructured images and text.</p>
+			</blockquote>
+			<p>Instructor bios:</p>
+			<blockquote>
+				<p><b>Rob Barry</b> is an investigative journalist at The Wall Street <em>Journal</em>. He tackles a wide range of topics, from unearthing financial frauds to diving into cybersecurity and untangling geopolitical conflicts. Barry's work often mixes deep investigative reporting with data analysis, always aiming to get to the heart of complex and challenging stories.</p>
+			</blockquote>
+			<blockquote>
+				<p><b>John West</b> reports the news with code at the Wall Street <em>Journal</em>, where his work has won multiple awards, including the 2023 Pulitzer Prize for Investigative Reporting. He holds an MFA in writing from Bennington College and degrees in philosophy and music performance from Oberlin College and Conservatory. His first book, <em>Lessons and Carols</em>, was published in 2023.</p>
+			</blockquote>
+		</div>
+		<div class="section">
+			<p>Useful links</p>
+			<ul>
+				<li>The <a href="tag/">tagger</a>.</li>
+				<li>The <a href="som/">SOM</a>.</li>
+				<li>The <a href="https://github.com/jswest/nicar2024-select-star">Github repository</a>.</li>
+			</ul>
+		</div>
+		<div class="section">
+			<p>Steps to reproduce:</p>
+			<ul>
+				<li>Run the SCRAPE notebook at <span class="pre">/notebooks/SCRAPE.ipynb</span>.</li>
+				<li>Tag a bunch of images using the <a href="tag/">tagger</a>.</li>
+				<li>Run the CLASSIFY notebook at <span class="pre">/notebooks/CLASSIFY.ipynb</span>.</li>
+				<li>Explore the output with the <a href="som/">SOM</a>.</li>
 		</div>
 	</div>
 </div>
 
 <style>
-	header {
-		background-color: black;
-		color: white;
-		height: calc(var(--unit) * 2);
-		left: 0;
-		position: fixed;
-		text-align: center;
-		top: 0;
-		width: 100%;
-	}
-	header h1 {
-		font-family: var(--font);
-		font-size: var(--unit);
-		font-weight: 800;
-		line-height: 1;
-		margin: calc(var(--unit) / 2) 0;
-	}
 	.main {
-		height: calc(100vh - (var(--unit) * 2));
-		left: 0;
-		position: fixed;
-		top: calc(var(--unit) * 2);
-		width: 100%;
-	}
-	.main .body {
-		margin: calc(var(--unit) * 2) auto;
+		margin: calc(var(--unit) * 6) auto 0 auto;
 		width: 800px;
 	}
-	.body h1 {
+	h1 {
 		font-size: calc(var(--unit) * 3);
-		font-style: italic;
-		line-height: 1;
 	}
-	.body figure {
-		border: 1px solid black;
-		box-sizing: border-box;
-		display: block;
-		margin: 0 auto;
-		padding: var(--unit);
-		width: 640px;
+	h2 {
+		font-size: calc(var(--unit));
+		font-weight: 800;
+		margin: var(--unit) 0 calc(var(--unit) * 3) 0;
 	}
-	.body figure img {
-		display: block;
-		height: 460px;
-		margin: 0 auto var(--unit) auto;
-		width: auto;
+	blockquote, ul {
+		margin-left: calc(var(--unit) * 2);
 	}
-	form {
-		box-sizing: border-box;
-		float: left;
-		padding: var(--unit);
-		width: 50%;
+	.section {
+		margin-bottom: calc(var(--unit) * 3);
 	}
-	form button {
-		cursor: pointer;
-		height: calc(var(--unit) * 2);
-		width: 100%;
-	}
-	form .hidden-input {
-		display: none;
-	}
+
 </style>

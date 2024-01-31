@@ -2,8 +2,8 @@ import { csvParse } from "d3";
 import fs from "fs";
 import path from "path";
 
-import human from "./../../data/human-classifications.json";
-import rawImages from "./../../data/index.csv?raw";
+import human from "./../../../data/human-classifications.json";
+import rawImages from "./../../../data/index.csv?raw";
 
 const images = csvParse(rawImages);
 
