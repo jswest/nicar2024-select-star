@@ -13,3 +13,5 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .venv
+.models/*
+!.models/.gitkeep
