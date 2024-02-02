@@ -32,20 +32,22 @@ The course description:
 
 For those of you actually at NICAR, you can safely ignore this. If you're not in the room, though, you'll need to run these steps.
 
-Make sure you've got Git, Python v3.11, Node v20 and [ `Poetry` ](https://python-poetry.org) installed.
+Make sure you've got Git, Python v3.11, and Node v20 installed.
 
 Next, clone and install this repository
 
 ```bash
-poetry install
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 npm install
 ```
 
 ## Getting the data.
 
-The easist thing is to download the data into the `data/` folder. (_N. B._: If you're at NICAR, you shouldn't need to do this.)
+(_N.B._: If you're at NICAR, you shouldn't need to do this.)
 
-Otherwise, you can scrape everything you need in about an hour.
+You can scrape everything you need in about an hour.
 
 ```bash
 poetry shell
@@ -62,7 +64,7 @@ We've already tagged a couple hundred images, but more is more and more is bette
 npm run dev -- --open
 ```
 
-This will open the Svelte app that powers the tagging component. Feel free to tag away.
+This will open the Svelte app that powers the tagging (and visualization) components. Feel free to tag away.
 
 ## Classifying data.
 
@@ -72,3 +74,5 @@ jupyter notebook
 ```
 
 Now, run the `CLASSIFY` notebook in its entirety.
+
+Finally, you can open back up the Node app to see your results!
