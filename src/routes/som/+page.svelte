@@ -13,10 +13,10 @@
 	let fgs = [];
 	let fill;
 	let height = 600;
-	let iteration;
 	let nodes = [];
 	let radius;
-	let state;
+	let running = false;
+	let state = {};
 	let viz;
 	let width = 600;
 
@@ -28,23 +28,24 @@
 	let forceManyBodyStrength = -300;
 	let forceSpaceStrength = 0.03;
 
+	const SOM_HEIGHT = 12;
+	const SOM_WIDTH = 12;
+
 	let somConfig = {};
-	let somHeight = 15;
 	let somIterations = 20;
 	let somLearningRate = 0.25;
 	let somRadius = 1.25;
-	let somWidth = 15;
 
 	const bgScale = scaleLinear()
 		.domain([0, 1])
 		.range(["rgba(255,100,100,0.5)", "rgba(100,100,255,0.5)"]);
 	const callback = (report) => {
 		edges = report.edges;
-		iteration = report.iteration;
 		nodes = report.nodes;
 		state = report.state;
 	};
 	const train = () => {
+		running = true;
 		viz.run();
 	}
 	const updateForceConfig = (
@@ -118,11 +119,11 @@
 	);
 
 	$: updateSomConfig(
-		somHeight,
+		SOM_HEIGHT,
 		somIterations,
 		somLearningRate,
 		somRadius,
-		somWidth
+		SOM_WIDTH
 	);
 </script>
 
@@ -131,14 +132,6 @@
 	<div class="Page">
 		<div class="controls">
 			<h2>SOM configuration</h2>
-			<div class="field">
-				<p>height</p>
-				<input type="text" bind:value={somHeight} />
-			</div>
-			<div class="field">
-				<p>width</p>
-				<input type="text" bind:value={somWidth} />
-			</div>
 			<div class="field">
 				<p>iterations</p>
 				<input type="text" bind:value={somIterations} />
@@ -176,7 +169,9 @@
 				<p>space strength</p>
 				<input type="text" bind:value={forceSpaceStrength} />
 			</div>
-			<button on:click={train}>Train SOM.</button>
+			{#if !running}
+				<button on:click={train}>Train SOM.</button>
+			{/if}
 		</div>
 		<div class="viz">
 			<svg height={height + 40} width={width + 40}>
@@ -228,6 +223,13 @@
 						</figcaption>
 					</figure>
 				{/each}
+			{/if}
+		</div>
+		<div class="inspector">
+			{#if (state.learningRate && state.radius)}
+				<p>iteration: {state.iteration + 1}</p>
+				<p>learning rate: {Math.round(state.learningRate * 100) / 100}</p>
+				<p>radius: {Math.round(state.radius * 100) / 100}</p>
 			{/if}
 		</div>
 	</div>
@@ -317,6 +319,22 @@
 	.pictures img {
 		margin-bottom: var(--unit);
 		width: 100%;
+	}
+	.inspector {
+		background-color: black;
+		border: 1px solid white;
+		box-sizing: border-box;
+		color: white;
+		height: calc(var(--unit) * 3);
+		left: var(--unit);
+		padding: var(--unit);
+		position: absolute;
+		top: calc((var(--unit) * 4) + 640px);
+		width: calc(300px + 300px + 640px + (var(--unit) * 2));
+	}
+	.inspector p {
+		float: left;
+		margin-right: var(--unit);
 	}
 
 </style>
